@@ -1,0 +1,865 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+* {
+    user-select: none;
+}
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.didi-div {
+    width: 100%;
+    height: 100px;
+}
+.logo-div {
+    display: inline-block;
+    margin-left: 9cm;
+    vertical-align: -1.9ch;
+}
+.logo-div img {
+    padding-top: 3.5ch;
+}
+.search-div {
+    display: inline-block;
+    margin-left: 4.5cm;
+}
+.saziebo-div {
+    background-color: white;
+    width: 450px;
+    height: 35px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:rgba(236,236,236,1);
+}
+.search {
+    width: 390px;
+    height: 35px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(236,236,236,1);
+    font-family: inherit;
+}
+.search-img {
+    width: 20px;
+    margin-top: 3px;
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.div-darekvis {
+    display: inline-block;
+    margin-left: 2cm;
+}
+.yursasmeni-img {
+    width: 53px;
+    vertical-align: middle;
+}
+.div-nomrebi {
+    display: inline-block;
+    margin-left: 3ch;
+    vertical-align: middle;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+nav {
+    background-color: black;
+    color: white;
+    line-height: 47px;
+    height: 53px;
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    z-index: 100;
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+.menus {
+    transition: 0.5s;
+}
+nav ul {
+    margin-left: 18.7cm;
+    display: inline-block;
+    transition: 0.5s;
+}
+.bag {
+    width: 40px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+.bag-div {
+    display: inline-block;
+    margin-left: 7cm;
+    transition: 0.5s;
+}
+.bag-div :hover {
+    cursor: pointer;
+}
+nav ul :hover {
+    cursor: pointer;
+}
+.line-a {
+    color: white;
+}
+.line-a {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+.line-a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.line-a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.vr-image {
+    width: 900px;
+    height: 500px;
+}
+.vr-div {
+    background-color: #0a0b1d;
+    width: 100%;
+}
+.name-div {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    font-family: sans-serif;
+    margin-top: 1.8cm;
+}
+.name1 {
+    font-size: 80px;
+    margin-bottom: 0.2ch;
+}
+.name2 {
+    font-size: 40px;
+    margin-bottom: 0.5ch;
+}
+.name3 {
+    font-size: 40px;
+    margin-bottom: 0.8ch;
+}
+.gilaki {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 15px 35px 15px 35px;
+    color: white;   
+    background-color: #4143e2;
+}
+.gilaki:hover {
+    cursor: pointer;
+}
+.gilaki:active {
+    transform: scale(0.97);
+}
+.gilaka-div {
+    color: white;
+}
+.saatis-div {
+    display: inline-block;
+    margin-top: 1.8ch;
+    margin-left: 1.8ch;
+    background-color: #8b4dde;
+    border-radius: 20px;
+}
+.saati-img {
+    display: inline-block;
+    border-radius: 20px;
+}
+.saatis-div p {
+    color: white;
+}
+.saatis-warwera {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1cm;
+}
+.watch1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2.9cm;
+}
+.watch2 {
+    font-size: 20px;
+}
+.watch3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.dronis-div {
+    display: inline-block;
+    margin-left: 1ch;
+    background-color: #3bce9a;
+    border-radius: 20px;
+}
+.droni {
+    margin-left: 1.1cm;
+    border-radius: 20px;
+}
+.dronis-warwera {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-left: 1cm;
+}
+.drone1 {
+    margin-top: 3cm;
+    font-size: 40px;
+    font-weight: 700;
+}
+.drone2 {
+    font-size: 20px;
+}
+.drone3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.informacia-div {
+    margin-top: 0.7cm;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
+}
+.satvirto-div {
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-top: 2ch;
+    margin-right: 1cm;
+    margin-left: 8cm;
+    display: inline-block;
+    vertical-align: top;
+}
+.satvirto-div div {
+    display: inline-block;
+    vertical-align: top;
+}
+.satvirto-div img {
+    width: 50px;
+    margin-top: 2.3ch;
+}
+.namceca1 {
+    display: inline-block;
+    margin-left: 1ch;
+    margin-top: 2.3ch;
+    color: black;
+    font-weight: bold;
+}
+.namceca2 {
+    margin-left: 1ch;
+    color: rgb(120, 120, 120);
+    font-weight: 400;
+}
+.fuli-div {
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-top: 1ch;
+    margin-right: 1cm;
+}
+.fuli-div :nth-child(1) {
+    display: inline-block;
+}
+.money-karta {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3ch;
+}
+.money-karta :nth-child(1) {
+    font-weight: bold;
+    color: black;
+    margin-left: 1ch;
+}
+.money-karta :nth-child(2) {
+    color: rgb(120, 120, 120);
+    margin-left: 1ch;
+}
+.safule-img {
+    margin-top: 3ch;
+}
+.naoshniki-div {
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-top: 1ch;
+    margin-right: 1cm;
+}
+.naoshniki-div img {
+    width: 50px;
+    margin-top: 3ch;
+}
+.naoshniki1-div {
+    display: inline-block;
+}
+.naoshniki-p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3ch;
+    margin-left: 1ch;
+}
+.naoshniki-p :nth-child(1) {
+    color: black;
+    font-weight: bold;
+}
+.naoshniki-p :nth-child(2) {
+    color:rgb(120, 120, 120);
+}
+.klite-div {
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-top: 1ch;
+    margin-right: 1cm;
+}
+.klites-div {
+    display: inline-block;
+}
+.klites-div img {
+    width: 50px;
+    margin-top: 3ch;
+}
+.klite-p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3ch;
+    margin-left: 1ch;
+}
+.klite-p :nth-child(1) {
+    color: black;
+    font-weight: bold;
+}
+.klite-p :nth-child(2) {
+    color:rgb(120, 120, 120);
+}
+.meore-seqcia {
+    margin-top: 3cm;
+}
+.arrival {
+    width: 100%;
+    height: 100px;
+}
+.arrival div {
+    margin-left: 42%;
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+}
+.bevri-foto {
+    background-color: white;
+    height: 400px;
+    margin-top: 3cm;
+}
+.vr-glass {
+    display: inline-block;
+    background-color: white;
+    margin-right: 1cm;
+    margin-left: 7cm;
+    vertical-align: top;
+}
+.vr-glass-img img {
+    width: 250px;
+    margin-left: 2ch;
+}
+.vr-glass-p p {
+    text-align: center;
+}
+.vr-glass-p :nth-child(1) {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
+.vr-glass-p :nth-child(2) {
+    font-weight: 500;
+    font-size: 40px;
+    color: #333333;
+}
+.vr-glass-buy button {
+    width: 260px;
+    text-align: center;
+    margin-left: 14px;
+    background-color: #0b6c9f;
+    border-radius: 20px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 1ch;
+    transition: 0.1s;
+}
+.vr-glass-buy button:hover {
+    cursor: pointer;
+}
+.vr-glass-buy button:active {
+    transform: scale(0.97);
+}
+.vr-controler {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1cm;
+    margin-top: -3ch;
+}
+.vr-controler-img img {
+    width: 300px;
+}
+.vr-controler-p p {
+    text-align: center;
+}
+.vr-controler-p :nth-child(1) {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.vr-controler-p :nth-child(2) {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 500;
+}
+.vr-controler-buy button {
+    width: 260px;
+    text-align: center;
+    margin-left: 14px;
+    background-color: #0b6c9f;
+    border-radius: 20px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 1ch;
+    transition: 0.1s;
+}
+.vr-controler-buy button:hover {
+    cursor:pointer;
+}
+.vr-controler-buy button:active {
+    transform: scale(0.97);
+}
+.vr-glasstander {
+    display: inline-block;
+    margin-right: 1cm;
+    vertical-align: top;
+    margin-top: -2ch;
+}
+.vr-glass-stander img {
+    width: 300px;
+}
+.vr-glass-stander-p {
+    text-align: center;
+}
+.vr-glass-stander-p :nth-child(1) {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
+.vr-glass-stander-p :nth-child(2) {
+    font-size: 40px;
+    color: #333333;
+    font-weight: 500;
+}
+.vr-glass-stander-buy button {
+    width: 260px;
+    text-align: center;
+    margin-left: 14px;
+    background-color: #0b6c9f;
+    border-radius: 20px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 1ch;
+    transition: 0.1s;
+}
+.vr-glass-stander-buy button:hover {
+    cursor:pointer;
+}
+.vr-glass-stander-buy button:active {
+    transform: scale(0.97);
+}
+.vr-sensor {
+    display: inline-block;
+    margin-right: 1cm;
+}
+.vr-sensor-img img {
+    width: 250px;
+    margin-left: 2ch;
+}
+.vr-sensor-p {
+    text-align: center;
+}
+.vr-sensor-p :nth-child(1) {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.vr-sensor-p :nth-child(2) {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 500;
+}
+.vr-sensor-buy button {
+    width: 260px;
+    text-align: center;
+    margin-left: 14px;
+    background-color: #0b6c9f;
+    border-radius: 20px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 1ch;
+    transition: 0.1s;
+}
+.vr-sensor-buy button:hover {
+    cursor:pointer;
+}
+.vr-sensor-buy button:active {
+    transform: scale(0.97);
+}
+.chamonatvali-tableta div {
+    margin-top: 2cm;
+    display: inline-block;
+    margin-left: 4cm;
+}
+.chamonatvali-tableta div p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.iphone-ipad-div img {
+    width: 500px;
+}
+.iphone-ipad-div {
+    margin-left: 1cm;
+    margin-top: 1cm;
+    display: inline-block;
+}
+.iphone-ipad-p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5.4cm;
+}
+.iphone-ipad-p :nth-child(1) {
+    font-size: 35px;
+    font-weight: bold;
+}
+.iphone-ipad-p :nth-child(2) {
+    margin-top: 2ch;
+    color: #616161;
+    font-weight: 400;
+    font-size: 16px;
+}
+.iphone-ipad-p :nth-child(3) {
+    color: #616161;
+    font-weight: 400;
+}
+.iphone-ipad-buy {
+    display:inline-block;
+}
+.ipad-button {
+    background-color: rgba(0,66,230,1);
+    color: white;
+    font-size: 17px;
+    padding: 14px 45px;
+    border-radius: 7px;
+    margin-top: 1cm;
+    transition: 0.1s;
+}
+.ipad-button:hover {
+    cursor: pointer;
+}
+.ipad-button:active {
+    transform: scale(0.97);
+}
+.yursamenebis-reklama {
+    background-image: url(../image/yursasmenebis-reklama.JPG);
+    background-size: 1930px;
+    height: 450px;
+    width: 100%;
+    padding-top: 2cm;
+}
+.yursasmenebis-teqsti {
+    border-style:solid;
+    border-color: white;
+    width: 900px;
+    align-content: center;
+    height: 300px;
+    border-width: 8px;
+    margin-left: 24%;
+    text-align: center;
+    padding-top: 2cm;
+    color: white;
+}
+.yursasmenebis-aqcia :nth-child(1) {
+    font-size: 40px;
+    font-weight: 500;
+}
+.yursasmenebis-aqcia :nth-child(2) {
+    font-size: 60px;
+    font-weight: 700;
+}
+.yursasmenebis-aqcia :nth-child(3) {
+    font-size: 17px;
+    margin-top: 1ch;
+    font-weight: 500;
+}
+.news {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 4cm;
+}
+.new-location {
+    margin-left: 5.6cm; 
+    display: inline-block;
+}
+.location-img img {
+    width: 300px;
+    border-radius: 7px;
+    height: 250px;
+    filter:brightness(0.7);
+    transition: 0.2s;
+}
+.location-img img:hover {
+    filter: brightness(1);
+}
+.location-p :nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1ch;
+}
+.location-p :nth-child(2) {
+    margin-top: 1ch;
+    color: #747474;
+}
+.location-p :nth-child(3) {
+    margin-top: 1.8cm;
+    color: rgba(0,68,233,1);
+}
+.sesonal-shoping {
+    display: inline-block;
+    margin-left: 2cm;
+    vertical-align: top;
+}
+.sesonal-img img {
+    width: 300px;
+    border-radius: 7px;
+    height: 250px;
+    filter: brightness(0.7);
+    transition: 0.2s;
+}
+.sesonal-img img:hover {
+    filter: brightness(1);
+}
+.seasonal-shopping-p :nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1ch;
+}
+.seasonal-shopping-p :nth-child(2) {
+    color: #747474;
+    font-weight: 400;
+    margin-top: 1ch;
+}
+.seasonal-shopping-p :nth-child(3) {
+    margin-top: 8ch;
+}
+.boost-loyalty {
+    display: inline-block;
+    margin-left: 2cm;
+    vertical-align: top;
+}
+.boost-loyalty-img img {
+    width: 300px;
+    height: 250px;
+    transition: 0.2s;
+    border-radius: 7px;
+    filter: brightness(0.8);
+}
+.boost-loyalty-img img:hover {
+    filter: brightness(1.2);
+}
+.boost-loyalty-p :nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1ch;
+}
+.boost-loyalty-p :nth-child(2) {
+    font-weight: 400;
+    color: #747474;
+    margin-top: 1ch;
+}
+.boost-loyalty-p :nth-child(3) {
+    color: #747474;
+    font-weight: 400;
+}
+.boost-loyalty-p :nth-child(4) {
+    font-weight: 600;
+    margin-top: 6ch;
+}
+.quality-wins {
+    display: inline-block;
+    margin-left: 2cm;
+    vertical-align: top;
+}
+.quality-img img {
+    width: 300px;
+    height: 250px;
+    transition: 0.2s;
+    border-radius: 7px;
+}
+.quality-img img:hover {
+    filter:brightness(1.6);
+}
+.quality-p :nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1ch;
+}
+.quality-p :nth-child(2) {
+    color: #747474;
+    font-weight: 400;
+    margin-top: 1ch;
+}
+.quality-p :nth-child(3) {
+    color: #747474;
+}
+.quality-p :nth-child(4) {
+    color: #747474;
+}
+.quality-p :nth-child(5) {
+    margin-top: 4ch;
+}
+footer {
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    margin-top: 1cm;
+}
+.subscribe {
+    display: inline-block;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    vertical-align: top;
+}
+.subscribe :nth-child(1) {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+.subscribe :nth-child(2) {
+    color: rgb(0, 72, 255);
+    font-weight: 700;
+    font-size: 28px;
+}
+.email-inputa {
+    display: inline-block;
+    margin-left: 2.5cm;
+    vertical-align: top;
+    margin-top: 1.4cm;
+}
+.email-inputa input {
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    width: 350px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    border-width: 1px;
+    padding-left: 2ch;
+    color: white;
+}
+.email-inputa ::-webkit-input-placeholder {
+    color: white;
+}
+.email-inputa button {
+    margin-top: 3ch;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: rgb(10, 100, 141);
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.email-inputa button:hover {
+    cursor: pointer;
+}
+.share-div {
+    display: inline-block;
+    background-color: black;
+    margin: 0.7cm 3cm;
+    width: 400px;
+    height: 150px;
+}
+.share-divlogo img {
+    margin: 0.7cm 0 0 0;
+    border-style: solid;
+    border-color:white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.share-divlogo :nth-child(1) {
+    width: 40px;
+    margin-left: 1cm;
+}
+.share-divlogo :nth-child(2) {
+    width: 40px;
+}
+.share-divlogo :nth-child(3) {
+    width: 40px;
+}
+.share-divlogo :nth-child(4) {
+    width: 40px;
+}
+.saatis-div {
+    width: 48.6%;
+    height: 370px;
+    background-image: url(../image/saati.JPG);
+    background-size: 700px;
+    background-position:right;
+    background-repeat: no-repeat;
+}
+.dronis-div {
+    display: inline-block;
+    width: 48.6%;
+    height: 370px;
+    background-image: url(../image/droni.JPG);
+    background-size: 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.menu-btn {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
