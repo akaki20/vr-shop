@@ -590,7 +590,7 @@ nav ul :hover {
     transform: scale(0.97);
 }
 .yursamenebis-reklama {
-    background-image: url(../image/yursasmenebis-reklama.JPG);
+    background-image: url(yursasmenebis-reklama.JPG);
     background-size: 1930px;
     height: 450px;
     width: 100%;
@@ -833,7 +833,7 @@ footer {
 .saatis-div {
     width: 48.6%;
     height: 370px;
-    background-image: url(../image/saati.JPG);
+    background-image: url(saati.JPG);
     background-size: 700px;
     background-position:right;
     background-repeat: no-repeat;
@@ -842,7 +842,7 @@ footer {
     display: inline-block;
     width: 48.6%;
     height: 370px;
-    background-image: url(../image/droni.JPG);
+    background-image: url(droni.JPG);
     background-size: 700px;
     background-position: right;
     background-repeat: no-repeat;
